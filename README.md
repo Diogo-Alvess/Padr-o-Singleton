@@ -1,0 +1,3 @@
+Este repositório apresenta a implementação do padrão de projeto Singleton em um cenário de conexão com banco de dados. Foi criada uma classe única (ConexaoBancoDados) responsável por armazenar as informações de conexão, como URL, usuário e senha, garantindo que apenas uma instância dessa classe exista durante toda a execução do sistema.
+
+Através do método getInstance(), é possível acessar a mesma instância globalmente, mantendo a consistência dos dados de conexão e evitando a criação desnecessária de múltiplos objetos. Essa implementação demonstra, de forma simples e prática, como o padrão Singleton pode ser aplicado em sistemas reais que necessitam de controle centralizado de recursos compartilhados, como conexões com banco de dados.
